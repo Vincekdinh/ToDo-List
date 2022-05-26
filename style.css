@@ -1,0 +1,22 @@
+header {
+    text-align: center;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+div {
+    border: 1px solid black;
+    padding: 10px;
+    display: inline;
+    background-color: rgb(234, 229, 229);
+    text-align: center;
+    margin: 1px;
+}
+
+span {
+    font-size: 15px;
+    font-weight:900;
+}
